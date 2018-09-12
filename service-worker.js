@@ -1,5 +1,5 @@
-var cacheName = 'meu-app-cache-v1';
-var filesToCache = [
+let cacheName = 'meu-app-cache-v1';
+let filesToCache = [
     '/',
     '/index.html',
     '/main.js',
