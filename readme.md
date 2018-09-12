@@ -1,21 +1,10 @@
-#### Como publicar um site no Firebase
-1- Abrir o terminal
+# Base para criação de um PWA
 
-2- Copie o caminho da pasta através do gerenciador de 
-arquivos
+Esse projeto provê a configuração mínima para a criação de um PWA e consiste dos seguintes elementos:
 
-3- Digite `cd caminho/para/pasta` no terminal e pressione enter
-
-4- Digite `firebase login` e faça login
-
-5- Digite `firebase init` e pressione enter
-
-6- Na lista apresentada, escolha a opção *Hosting* com a barra de espaços e pressione enter
-
-7- Selecione o projeto que você criou anteriormente Firebase e pressione enter
-
-8- *What do you want to use as your public directory?* Digite `.` e pressione enter
-
-9- *Configure as a single-page app (rewrite all urls to /index.html)?* Digite `n` e pressione enter
-
-10- O menu interativo irá encerrar. Digite o comando `firebase deploy` e pressione enter
+- Uma página de entrada com referências aos demais arquivos do projeto (index.html)
+- Um manifest (manifest.json)
+- Um service-worker (service-worker.js)
+- Um arquivo de script com o código para registro do service-worker (main.js)
+- Um arquivo de CSS vazio (main.css)
+- Imagens de ícone nas proporções corretas (img/icon-192.png e img/icon-512.png)
